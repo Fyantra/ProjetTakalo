@@ -1,0 +1,38 @@
+#menu {
+    
+    font-size: x-large;
+    animation: hautBas 2s;
+    margin-bottom: 5%;
+}
+
+#menu {
+    margin-top: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@keyframes hautBas {
+    0% {
+        transform: translateX(+260px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.chiffre{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff0000;
+    animation: top-bar 8s infinite 6s ease-in-out ;
+}
+@keyframes top-bar {
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+h3:hover{
+    color: rgb(203, 250, 13);
+}
+

@@ -1,0 +1,157 @@
+
+        #main_content {
+            padding-top: 20px;
+            /*grid-gap: 20px;*/
+        }
+    
+        
+        /*content/titre*/
+        #titre {
+            animation: fadeIn 1s;
+            -webkit-animation: fadeIn 1s;
+            -moz-animation: fadeIn 1s;
+            -o-animation: fadeIn 1s;
+            -ms-animation: fadeIn 1; 
+            text-align: center;
+            font-style: oblique;
+            font-weight: lighter;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            color: #cfb41c;
+    
+        }
+    
+        /*content*/
+        #content {
+            display: grid;
+            /*grid-template-columns: 400px 5fr;*/
+            /*background-color: coral;*/
+            width: 90%;
+            height: max-content;
+            margin-left: 15%;
+        }
+        .content {
+            animation: fadeIn 1s;
+            -webkit-animation: fadeIn 1s;
+            -moz-animation: fadeIn 1s;
+            -o-animation: fadeIn 1s;
+            -ms-animation: fadeIn 1; 
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 350px;
+            width: 36%;
+            background-color: #a6cca647;
+            margin-block-start: 35px ;
+            margin-inline-start: 70px ;
+            float: left;
+            border-radius: 20px;
+            padding: 7px;
+            box-shadow: 12px 6px 8px 0px #1d1d1d47 ;
+        }
+        @keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+    
+        @-moz-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+    
+        @-webkit-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+    
+        @-o-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+    
+        @-ms-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+    
+        .content:hover {
+            background-color:rgb(223, 217, 139) ;
+            transition: 0.5s;
+            height:360px;
+            width: 37%;
+        }
+    
+        .content a {
+            text-decoration: none;
+            color: rgb(46, 131, 122);
+        }
+    
+        .img {
+            background-position: center;
+            background-size: cover;
+            width: 200px;
+            height: 200px;
+            margin: 10px 10px;
+            border-radius: 50%;
+            border-image: round;
+        }
+    
+        .img :hover {
+            width: 210px;
+            height: 210px;
+        }
+    
+        .img img {
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+            image-rendering: optimizeQuality; 
+        }
+    
+        .txt {
+            /*background-color: yellowgreen;*/
+            width: 210px;
+            height: 210px;
+            margin: 10px 0px;
+            border-radius: 15px;
+            text-align: center;
+            line-height: 25px;
+            font-style: italic;
+        }
+    
+        .txt h2 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(60, 214, 214);
+        }
+    
+        .reserver {
+            font-size: small;
+            font-weight: bold;
+            border : solid 0.5px rgb(91, 214, 192) ;
+            border-radius: 20px;
+            width: 130px;
+            height: 32px;
+            text-align: center;
+            margin-inline-start: 44px;
+            padding-right : 5px;
+            padding-top: 5px;
+        }
+    
+        /*.reserver a {
+            color: rgb(91, 214, 192) ;
+        }*/
+    
+        button:active{
+            border: 2px solid #f2f2f2;
+            transition: border 0.5s ease;
+        }
+        button:hover{
+            background-color: rgb(229, 32, 14);
+        }
+        
+        .chiffre{
+            color: #f88794;
+        }
+        .fleche{
+            margin-right: 50%;
+        }

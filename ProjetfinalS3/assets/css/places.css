@@ -1,0 +1,22 @@
+.place {
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    height: 8vh;
+    width: 5vw;
+    margin: 10px 10px;
+    padding: inherit;
+}
+
+#typePlace {
+    display: flex;
+    flex-direction: row;
+}
+
+#couleur {
+    width: max-content;
+}
+
+#couleur .txt {
+    margin: 0 20px;
+}

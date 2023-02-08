@@ -1,0 +1,43 @@
+    
+    /*content/menu_deroulant*/
+    #menuu {
+        /*box-shadow: 10px 5px 5px 2px rgb(181, 211, 204);*/
+        margin-block-start: 20px;
+        margin-inline-start: 20px;
+        display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: center;
+        width: 20%;
+        height: 188px;
+        animation: Show_Left 0.8s ease-out;
+        margin-top: 15%;
+    }
+    #menuu a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    #menuu div {
+        padding: 10px;
+        width: 225px;
+        border: solid 1px rgb(181, 211, 204);
+        height: 25px;
+    }
+    #menuu div:hover {
+        background-color: rgb(46, 131, 122);
+        color: white;
+        transition: 1s;
+    } 
+
+    @keyframes Show_Left {
+        from {
+            opacity: 0;
+            transform: translateX(-100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    
+    

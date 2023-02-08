@@ -1,0 +1,31 @@
+table.high-level-table{
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table.high-level-table th, table.high-level-table td{
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+table.high-level-table th{
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+#table{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+table.high-level-table th:hover{
+    background-color: yellow;
+}
+h2{
+    text-align: center;
+}
+.content{
+    margin-top: 2%;
+}
+td:hover{
+    background-color: rgb(164, 170, 170);
+}
